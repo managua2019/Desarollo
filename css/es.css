@@ -1,0 +1,14 @@
+@keyframes fondo{
+ 0%{ background-color: yellow;}
+ 30%{background-color: cyan;}
+ 60%{background-color: purple;}
+ 80%{background-color: blue;}
+ 100%{background-color: red;}
+}
+
+body{
+	animation: fondo;
+	animation-name: fondo;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+}
